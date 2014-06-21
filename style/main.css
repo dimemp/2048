@@ -36,8 +36,13 @@ body {
  
 }  
 
+.twitter-share {
+  display: block;
+}
+
 .fb-like{
   margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 h1.title {
