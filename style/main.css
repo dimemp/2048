@@ -36,13 +36,16 @@ body {
  
 }  
 
-.twitter-share {
+.twitter-widget-0 {
   display: block;
 }
 
-.facebook-share {
+.fb-like fb_iframe_widget {
   margin-top: 10px;
   margin-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1.title {
