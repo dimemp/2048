@@ -6,7 +6,7 @@ Made just for fun. [Play it here!](http://dimemp.github.io/2048/)
 ### Screenshot
 
 <p align="center">
-  <img src="https://github.com/dimemp/2048/blob/gh-pages/pictures/App%27s_foto.PNG" alt="Screenshot"/>
+  <img src="https://raw.githubusercontent.com/dimemp/2048/gh-pages/pictures/App%27s_foto.PNG" alt="Screenshot"/>
 </p>
 
 That screenshot is taken from the game. Which team do you think is the winner of World Cup 2014?  :smile: :smile:
