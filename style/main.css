@@ -34,20 +34,22 @@ body {
   text-align: center;
   margin-top: 30px;
   margin-left: auto;
-  margin-right: auto;
-}  
+  margin-right: auto;}  
+
+.twitter-share-score {
+  text-align: center;
+  margin-top: 18px;
+  margin-left: 65px}
 
 .twitter-share {
-  display: block;
-}
+  display: block;}
 
 .facebook-share {
   margin-top: 10px;
   margin-bottom: 15px;
   display: block;
   margin-left: auto;
-  margin-right: auto;
-}
+  margin-right: auto;}
 
 h1.title {
   font-size: 53px;
@@ -220,10 +222,10 @@ hr {
       font-weight: bold;
       height: 60px;
       line-height: 60px;
-      margin-top: 222px; }
+      margin-top: 170px; }
     .game-container .game-message .lower {
       display: block;
-      margin-top: 59px; }
+      margin-top: 40px; }
     .game-container .game-message a {
       display: inline-block;
       background: #257710;
