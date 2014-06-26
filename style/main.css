@@ -94,7 +94,7 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: rgba(240, 213, 14, 0.81);
+  background: rgba(239, 215, 56, 1);
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
@@ -146,7 +146,7 @@ p {
   line-height: 1.65; }
 
 a {
-  color: rgba(240, 213, 14, 1);
+  color: rgba(239, 215, 56, 1);
   font-weight: bold;
   text-decoration: underline;
   cursor: pointer; }
@@ -156,7 +156,7 @@ strong.important {
 
 hr {
   border: none;
-  border-bottom: 2px solid rgba(240, 213, 14, 0.81);
+  border-bottom: 2px solid rgba(239, 215, 56, 1);
   margin-top: 20px;
   margin-bottom: 30px; }
 
@@ -546,7 +546,7 @@ hr {
 
 .restart-button {
   
-  background: rgba(240, 213, 14, 0.81);
+  background: rgba(239, 215, 56, 1);
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
@@ -563,6 +563,12 @@ hr {
 
 .game-explanation {
   margin-top: 30px; }
+
+#tweet-score{
+  font-size: 22px;
+  display: block;
+  font-family: serif;
+  margin-top: 15px;}  
 
 @media screen and (max-width: 520px) {
   html, body {
@@ -635,7 +641,7 @@ hr {
       right: 0;
       bottom: 0;
       left: 0;
-      background: rgba(238, 228, 218, 0.5);
+      background: rgba(239, 215, 56, 1);
       z-index: 100;
       text-align: center;
       -webkit-animation: fade-in 800ms ease 1200ms;
@@ -776,6 +782,14 @@ hr {
     font-size: 30px !important;
     height: 30px !important;
     line-height: 30px !important;
-    margin-top: 90px !important; }
+    margin-top: 70px !important; }
   .game-message .lower {
-    margin-top: 30px !important; } }
+    margin-top: 30px !important; } 
+
+  #tweet-score{
+  font-size: 13px !important;
+  display: block;
+  font-family: serif;
+  margin-top: 5px !important;} }
+
+
