@@ -128,6 +128,13 @@ HTMLActuator.prototype.message = function (won) {
   var type    = won ? "game-won" : "game-over";
   var message = won ? "You win!" : "Game over!";
 
+  var elem = document.getElementById('twitterbox');
+     if (elem != null ){
+
+         elem.parentNode.removeChild(elem);
+        //document.getElementById("")
+     }  
+  
   var msg = "I scored " + this.score + " goals at 2048 is going to #WorldCup! A game where you join national teams to get to the winner!"
   //alert(msg) ;
                
@@ -141,6 +148,7 @@ HTMLActuator.prototype.message = function (won) {
     link.setAttribute("data-related" ,"@DimiDimos");
     document.getElementById("twitter-share-scor").appendChild(link) ;
     twttr.widgets.load();  //very important
+
          
   this.messageContainer.classList.add(type);
   this.messageContainer.getElementsByTagName("p")[0].textContent = message;
